@@ -1,10 +1,10 @@
-x = 10
-y = 5
-z = x + y
+num1 = 10
+num2 = 5
+suma = num1 + num2
 
-def f(a, b):
-    c = a * b
-    return c
+def multiplicacion(a, b):
+    result_multi = a * b
+    return result_multi
 
-resultado = f(x, z)
+resultado = multiplicacion(num1, suma)
 print(resultado)
