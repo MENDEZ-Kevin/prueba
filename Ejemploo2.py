@@ -1,12 +1,12 @@
-def calcular(a, b, c):
-    res = a * b + c
-    return res
+def calcular_area_cubo(base, altura, ancho):
+    area_cubo = base * altura * ancho
+    return area_cubo
 
 def principal():
-    x = 5
-    y = 3
-    z = 7
-    resultado = calcular(x, y, z)
+    base = 5
+    altura = 3
+    ancho = 7
+    resultado = calcular_area_cubo(base, altura, ancho)
     print("El resultado es:", resultado)
 
 principal()
